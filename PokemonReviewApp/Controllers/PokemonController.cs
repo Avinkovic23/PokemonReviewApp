@@ -42,7 +42,7 @@ namespace PokemonReviewApp.Controllers
             if (!ModelState.IsValid) { 
                 return BadRequest(ModelState);
             }
-            return Ok(pokemon);
+            return Ok();
         }
 
         /*[HttpGet("{name}")]
